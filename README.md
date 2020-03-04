@@ -2,15 +2,14 @@
 peg.js (Parser Generator for JavaScript) related examples
 
 
-# Env set
+# how to run
 
 ```js
 npm install -g pegjs
 
-//generate dist file example
+//generate dist file example (just follow peg.js documentation)
 pegjs -o dist/cssParser.js css_parser.pegjs
 ```
-
 or 
 
 [use online version](https://pegjs.org/online)
