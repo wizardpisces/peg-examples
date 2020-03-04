@@ -7,7 +7,7 @@ peg.js (Parser Generator for JavaScript) related examples
 ```js
 npm install -g pegjs
 
-//generate dist file example (just follow peg.js documentation)
+//generate dist file example (just follow peg.js [documentation](https://pegjs.org/documentation))
 pegjs -o dist/cssParser.js css_parser.pegjs
 ```
 or 
