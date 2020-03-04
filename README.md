@@ -20,5 +20,4 @@ npm install -g pegjs
 //generate dist file example
 pegjs -o dist/cssParser.js css_parser.pegjs
 ```
-or 
 
