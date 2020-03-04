@@ -1,0 +1,62 @@
+{
+    "var_expresstion": [
+        {
+            "type": "var",
+            "property": "$top",
+            "value": "20px"
+        },
+        {
+            "type": "var",
+            "property": "$height",
+            "value": "30px"
+        }
+    ],
+    "children": [
+        {
+            "selector": "main",
+            "key_values": [
+                {
+                    "key": "margin",
+                    "value": undefined
+                },
+                {
+                    "key": "left",
+                    "value": "1px"
+                }
+            ],
+            "children": [
+                {
+                    "selector": "child1",
+                    "key_values": [
+                        {
+                            "key": "left",
+                            "value": "1px"
+                        }
+                    ],
+                    "children": [
+                        {
+                            "selector": "child2",
+                            "key_values": [
+                                {
+                                    "key": "height",
+                                    "value": "30px"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "selector": "child2",
+                            "key_values": [
+                                {
+                                    "key": "height",
+                                    "value": "30px"
+                                }
+                            ],
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
